@@ -20,7 +20,7 @@ def get_logger():
 
     if not logger.handlers:
         logger.addHandler(handler)
-        logger.setLevel(logging.DEBUG)
+        logger.setLevel(logging.INFO)
         logger.propagate = False
 
     return logger
