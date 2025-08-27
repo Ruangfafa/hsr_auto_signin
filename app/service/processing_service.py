@@ -26,5 +26,5 @@ def safe_continue(driver):
             abnormal_warning = True
         time.sleep(1)
     if abnormal_warning:
-        time.sleep(1)
+        wait_load(driver)
     logger.info("已通过异常处理")
