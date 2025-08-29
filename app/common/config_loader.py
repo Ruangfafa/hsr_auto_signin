@@ -30,6 +30,7 @@ URL_SIGNIN = os.getenv("URL_SIGNIN")
 XPATH_SIGNIN_CONTENT = os.getenv("XPATH_SIGNIN_CONTENT")
 XPATH_USER = os.getenv("XPATH_USER")
 XPATH_SIGN_DAY = os.getenv("XPATH_SIGN_DAY")
+XPATH_REWARD = os.getenv("XPATH_REWARD")
 
 abnormal_xpath = os.getenv("ABNORMAL_XPATH")
 ABNORMAL_XPATH_LIST = abnormal_xpath.split("_;_") if abnormal_xpath else []
